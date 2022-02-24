@@ -1,0 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 600px;
+    background-color: rgb(255, 250, 209);
+    box-shadow: 1px 1px 2px rgb(223, 213, 124);
+}
+
+h1, p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+input {
+    width: 286px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #312f2f;
+}
+
+input:focus{
+    background-color: #fdfbe4;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#enterBtn i {
+    color: khaki;
+    font-size: 33px;
+}
+
+#enterBtn i:hover {
+    color: rgb(231, 221, 126);
+}
+
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 319px;
+    font-weight: 600;
+}
+
+.done {
+    background-color: #8fda71;
+}
+
+.delete {
+    display: none;
+}
+
+li button i {
+    font-size: 20px;
+    color: rgb(253, 104, 104);
+}
+
